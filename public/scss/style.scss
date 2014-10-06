@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header.persist {
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  h1 {
+    font-family: "Engravers MT Std";
+  }
+}
+
+.page {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  header.page-header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .background {
+      background-image: url('/images/digital-poetics.gif');
+      background-size: cover;
+      background-position: 66% 66%;
+      -webkit-filter: contrast(50%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;  
+      z-index: 1; 
+    }
+    h1 {
+      //background-color: rgb(255,255,255);
+      color: rgb(255,255,255);
+      font-family: "Source Sans Pro";
+      font-size: 100px;
+      font-weight: 100;
+      letter-spacing: 10px;
+      line-height: 200px;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      text-align: left;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+    h2 {
+      color: rgb(255,255,255);
+      font-family: "Source Sans Pro";
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 5px;
+      line-height: 15px;
+      position: absolute;
+      top: 300px;
+      left: 110px;
+      text-align: left;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+    button.down-arrow {
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid rgb(255,255,255);
+      border-left: 3px solid rgb(255,255,255);
+      cursor: pointer;
+      display: block;
+      outline: none;
+      position: absolute;
+      bottom: 100px;
+      left: 110px;
+      transform: rotate(-45deg);
+      width: 200px;
+      height: 200px;
+      z-index: 2;
+    }
+  }
+  ul.projects {
+    box-sizing: border-box;
+    list-style: none;
+    margin-top: 44px;
+    padding-left: 44px;
+    width: 100%;
+    li.project {
+      background-color: rgb(0,0,0);
+      cursor: pointer;
+      float: left;
+      margin-right: 22px;
+      margin-bottom: 22px;
+      position: relative;
+      width: 320px;
+      height: 320px;
+      &:hover {
+        background-color: rgb(200,200,200);
+        header {
+          color: rgb(0,0,0);
+        }
+        div.project-image {
+          -webkit-filter: brightness(100%) blur(0px) grayscale(0%);
+        }
+      }
+      header {
+        color: rgb(255,255,255);
+        font-family: "Source Sans Pro";
+        text-align: center;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 0;
+        text-transform: uppercase;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        h1 {
+          font-family: "Source Sans Pro";
+          font-size: 20px;
+          font-weight: 100;
+          padding-top: 30px;
+        }
+        h2 {
+          font-family: "Source Sans Pro";
+          font-size: 12px;
+          padding-top: 30px;
+        }
+      }
+      div.project-image {
+        background-size: cover;
+        -webkit-filter: brightness(75%) blur(0) grayscale(75%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+    }
+    li.clear {
+      clear: both;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .page {
+    header.page-header {
+      h1 {
+        font-size: 50px;
+        line-height: 100px;
+        top: 50px;
+        left: 50px;
+      }
+      h2 {
+        top: 200px;
+        left: 55px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 640px) {
+  .page {
+    ul.projects {
+      padding-left: 0;
+      li.project {
+        margin: 0 auto 22px auto;
+        float: none;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .page {
+    header.page-header {
+      h1 {
+        font-size: 20px;
+        line-height: 40px;
+        left: 25px;
+      }
+      h2 {
+        top: 100px;
+        left: 27.5px;
+      }
+      button.down-arrow {
+        left: 50px;
+        bottom: 50px;
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}

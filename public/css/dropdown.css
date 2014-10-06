@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0; !important
+  padding: 0; !important
+}
+.etc-gear-wrapper {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  z-index: 99;
+}
+.etc-gear-wrapper button {
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+.etc-gear-wrapper button svg {
+  margin-top: -9px;
+  margin-left: -9px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+}
+.etc-gear-wrapper .etc-dropdown-marker {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  position: absolute;
+  bottom: 14.5px;
+  transform: rotate(-45deg);
+  transition: transform 200ms;
+  width: 5.5px;
+  height: 5.5px;
+}
+.etc-gear-wrapper.active .etc-dropdown-marker {
+  transform: rotate(135deg);
+}
+
+.etc-gear-dropdown {
+  background-color: rgba(255,255,255,.75);
+  overflow: hidden;
+  position: absolute;
+  top: 44px;
+  right: 0;
+  width: 320px;
+  height: 0;
+  -webkit-transition: height 200ms;
+  -moz-transition: height 200ms;
+  -ms-transition: height 200ms;
+  -o-transition: height 200ms;
+  transition: height 200ms;
+  z-index: 99;
+}
+.etc-gear-dropdown.active {
+  height: 226px;
+}
+.etc-gear-dropdown li {
+  border-top: 1px solid rgb(255,255,255);
+  font-family: "Source Sans Pro Extralight", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
+  font-size: 11px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  list-style: none;
+  padding: 0 22px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 276px;
+  height: 44px;
+}
+.etc-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.etc-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.etc-overlay {
+  background-color: rgba(0,0,0,.75);
+  box-sizing: border-box;
+  padding: 44px;
+  position: absolute;
+  left: 0;
+  transition: top 200ms;
+  z-index: 100;
+}
+.etc-overlay svg {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 44px;
+  right: 44px;
+}
+.etc-overlay.active {
+  top: 0;
+}
+.etc-overlay p {
+  color: rgb(255,255,255);
+  font-family: "Source Sans Pro Extralight", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+  line-height: 27px;
+  margin: 0 auto 27px auto;
+  text-transform: uppercase;
+  max-width: 600px;
+  min-width: 300px;
+  width: 90%;
+}
+.etc-overlay p:first-child {
+  margin-top: 88px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+body {
+	background-image: url(/images/harvest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#coffee:hover {
+	line-height: 50px;
+}
+#harvest {
+	cursor: default;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+span {
+	color: slategray;
+	font-size: 24px;
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	letter-spacing: 1.2px;
+	transition: color 1.5s;
+	-webkit-transition: color 1.5s;
+}
+span.hidden:hover {
+	color: slategray;
+}
+span.hidden {
+	color: white;
+}
+		</style>
+		<link rel="stylesheet" href="/css/dropdown.css" type="text/css">
+		<title>Harvest</title>
+	</head>
+	<body>
+		<div id="harvest">
+<span>Whenever</span> <span>you&rsquo;re</span> <span>empty,</span> <span>you&rsquo;re</span> <span>also</span> <span>full</span> <span>of</span> <span>something,</br></span>
+<span>even</span> <span>when</span> <span>that</span> <span>something</span> <span>is</span> <span>a</span> <span>lack.</br></span>
+<span>Lack</span> <span>is</span> <span>searching</span> <span>something</span> <span>to</span> <span>rush</span> <span>in</span> <span>and</span> <span>fill</span> <span>it.</br></span></br>
+
+<span>Cutting</span> <span>away</span> <span>means</span> <span>making</span> <span>room &mdash;</br></span>
+<span>preparing</span> <span>and</span> <span>paring</span> <span>down.</br></br></span>
+
+<span>I</span> <span>harvest</span> <span>to</span> <span>prepare</span> <span>for</span> <span>the</span> <span>future.</span></br>
+<span>I</span> <span>harvest</span> <span>to</span> <span>arrange</span> <span>the</span> <span>present.</span></br></br>
+
+<span>Sometimes</span> <span>I</span> <span>mistake</span> <span>for</span> <span>getting</span> <span>rid</span> <span>what</span> <span>is</span> <span>really</span> <span>getting</span> <span>ready.</br></span>
+<span>Empty</span> <span>fields</span> <span>are</span> <span>laid</span> <span>bare</span> <span>to</span> <span>sew.</span></br>
+<span>Beginning</span> <span>a</span> <span>cycle</span> <span>is</span> <span>a</span> <span>chance</span> <span>to</span> <span>grow.</span>
+		</div>
+		<script src="/js/dropdown.js"></script>
+		<script>
+		document.addEventListener( "DOMContentLoaded", function() {
+			var timer = setTimeout(function () {
+				var spans = document.getElementsByTagName('span');
+				for (var i = 0; i < spans.length; i++) {
+					spans[i].className = 'hidden';
+				}				
+			}, 200);
+			var dropdown = new ETCDropdown({
+				title: "Harvest",
+				statement: "<p><em>Harvest</em> is an interactive poem. It can be read in countless ways, and I suggest exploring them freely. However, there are lines that can be found by guiding your cursor from left to right and panning, word by word, across the page.</p>",
+				byline: "Galen Beebe"
+			});
+ 		}, false);
+		</script>
+	</body>
+</html>
