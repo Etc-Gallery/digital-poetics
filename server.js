@@ -13,6 +13,6 @@ app.get('/harvest', function (req, res) {
 })
 
 
-var server = app.listen(5000, function () {
+var server = app.listen(process.env.PORT || 5000, function () {
   console.log('Start yer engines.');
 });
