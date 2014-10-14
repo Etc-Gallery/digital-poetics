@@ -38,6 +38,10 @@ header.persist {
       background-size: cover;
       background-position: 66% 66%;
       -webkit-filter: contrast(50%);
+      -moz-filter: contrast(50%);
+      -ms-filter: contrast(50%);
+      -o-filter: contrast(50%);
+      filter: contrast(50%);
       position: absolute;
       top: 0;
       left: 0;
@@ -85,6 +89,10 @@ header.persist {
       position: absolute;
       bottom: 100px;
       left: 110px;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
       width: 200px;
       height: 200px;
