@@ -48,9 +48,9 @@ header.persist {
     h1 {
       //background-color: rgb(255,255,255);
       color: rgb(255,255,255);
-      font-family: "Source Sans Pro";
+      font-family: "Source Sans Pro Extra Light";
       font-size: 100px;
-      font-weight: 100;
+      font-weight: 400;
       letter-spacing: 10px;
       line-height: 200px;
       position: absolute;
@@ -62,9 +62,9 @@ header.persist {
     }
     h2 {
       color: rgb(255,255,255);
-      font-family: "Source Sans Pro";
+      font-family: "Source Sans Pro Black";
       font-size: 15px;
-      font-weight: 800;
+      font-weight: 400;
       letter-spacing: 5px;
       line-height: 15px;
       position: absolute;
@@ -117,7 +117,7 @@ header.persist {
       }
       header {
         color: rgb(255,255,255);
-        font-family: "Source Sans Pro";
+        font-family: "Source Sans Pro Extra Light";
         text-align: center;
         letter-spacing: 2px;
         position: absolute;
@@ -127,20 +127,25 @@ header.persist {
         height: 100%;
         z-index: 2;
         h1 {
-          font-family: "Source Sans Pro";
+          font-family: "Source Sans Pro Extra Light";
           font-size: 20px;
-          font-weight: 100;
+          font-weight: 400;
           padding-top: 30px;
         }
         h2 {
-          font-family: "Source Sans Pro";
+          font-family: "Source Sans Pro Black";
           font-size: 12px;
+          font-weight: 400;
           padding-top: 30px;
         }
       }
       div.project-image {
         background-size: cover;
         -webkit-filter: brightness(75%) blur(0) grayscale(75%);
+        -moz-filter: brightness(75%) blur(0) grayscale(75%);
+        -ms-filter: brightness(75%) blur(0) grayscale(75%);
+        -o-filter: brightness(75%) blur(0) grayscale(75%);
+        filter: brightness(75%) blur(0) grayscale(75%);
         position: absolute;
         top: 0;
         left: 0;

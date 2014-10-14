@@ -66,9 +66,9 @@ body {
 }
 .etc-gear-dropdown li {
   border-top: 1px solid rgb(255,255,255);
-  font-family: "Source Sans Pro Extralight", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
+  font-family: "Source Sans Pro Extra Light", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
   font-size: 11px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 2px;
   list-style: none;
   padding: 0 22px;
@@ -107,9 +107,9 @@ body {
 }
 .etc-overlay p {
   color: rgb(255,255,255);
-  font-family: "Source Sans Pro Extralight", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
+  font-family: "Source Sans Pro Extra Light", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial" sans-serif;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 1.8px;
   line-height: 27px;
   margin: 0 auto 27px auto;
