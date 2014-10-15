@@ -53,8 +53,8 @@ div.overlays {
       display: block;
     }
     h1 {
-      font-family: "Source Sans Pro";
-      font-weight: 100;
+      font-family: "Source Sans Pro Extra Light";
+      font-weight: 400;
       font-size: 44px;
       margin-left: 11px;
       margin-bottom: 44px;
@@ -62,9 +62,9 @@ div.overlays {
       text-transform: uppercase;
     }
     p {
-      font-family: "Source Sans Pro";
+      font-family: "Source Sans Pro Extra Light";
       font-size: 18px;
-      font-weight: 100;
+      font-weight: 400;
       line-height: 27px;
       margin-left: 11px;
       max-width: 600px;
@@ -84,9 +84,9 @@ header.persist {
   z-index: 5;
   .title {
     color: rgb(0,0,0);
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro Extra Light";
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 44px;
     margin: 0 auto;
     position: relative;
@@ -127,9 +127,9 @@ header.persist {
       background-color: rgba(255,255,255,.85);
       border-bottom: 2px dotted rgb(255,255,255);
       cursor: pointer;
-      font-family: "Source Sans Pro";
+      font-family: "Source Sans Pro Extra Light";
       font-size: 11px;
-      font-weight: 100;
+      font-weight: 400;
       letter-spacing: 2px;
       line-height: 44px;
       padding: 0 22px;

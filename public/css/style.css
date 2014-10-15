@@ -10,18 +10,18 @@ div.overlays button.x { position: absolute; top: 88px; right: 44px; width: 100px
 div.overlays button.x svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 div.overlays .overlay { display: none; }
 div.overlays .overlay.active { display: block; }
-div.overlays .overlay h1 { font-family: "Source Sans Pro"; font-weight: 100; font-size: 44px; margin-left: 11px; margin-bottom: 44px; padding-top: 88px; text-transform: uppercase; }
-div.overlays .overlay p { font-family: "Source Sans Pro"; font-size: 18px; font-weight: 100; line-height: 27px; margin-left: 11px; max-width: 600px; width: 90%; }
+div.overlays .overlay h1 { font-family: "Source Sans Pro Extra Light"; font-weight: 400; font-size: 44px; margin-left: 11px; margin-bottom: 44px; padding-top: 88px; text-transform: uppercase; }
+div.overlays .overlay p { font-family: "Source Sans Pro Extra Light"; font-size: 18px; font-weight: 400; line-height: 27px; margin-left: 11px; max-width: 600px; width: 90%; }
 
 header.persist { background-color: transparent; position: absolute; top: 0; left: 0; width: 100%; height: 44px; z-index: 5; }
-header.persist .title { color: black; font-family: "Source Sans Pro"; font-size: 22px; font-weight: 100; line-height: 44px; margin: 0 auto; position: relative; top: -44px; text-align: center; text-transform: uppercase; width: 320px; height: 44px; -webkit-transition: all 200ms; transition: all 200ms; }
+header.persist .title { color: black; font-family: "Source Sans Pro Extra Light"; font-size: 22px; font-weight: 400; line-height: 44px; margin: 0 auto; position: relative; top: -44px; text-align: center; text-transform: uppercase; width: 320px; height: 44px; -webkit-transition: all 200ms; transition: all 200ms; }
 header.persist .title.active { top: 0; }
 header.persist ul.persist-dropdown { overflow: hidden; position: absolute; top: 44px; width: 320px; height: 0; z-index: 3; transition: all 200ms; }
 header.persist ul.persist-dropdown.gear-dropdown { left: auto; right: 0; }
 header.persist ul.persist-dropdown.gear-dropdown.active { height: 181px; }
 header.persist ul.persist-dropdown.hamburger-dropdown { left: 0; right: auto; }
 header.persist ul.persist-dropdown.hamburger-dropdown.active { height: 136px; }
-header.persist ul.persist-dropdown li { background-color: rgba(255, 255, 255, 0.85); border-bottom: 2px dotted white; cursor: pointer; font-family: "Source Sans Pro"; font-size: 11px; font-weight: 100; letter-spacing: 2px; line-height: 44px; padding: 0 22px; text-transform: uppercase; width: 276px; height: 44px; }
+header.persist ul.persist-dropdown li { background-color: rgba(255, 255, 255, 0.85); border-bottom: 2px dotted white; cursor: pointer; font-family: "Source Sans Pro Extra Light"; font-size: 11px; font-weight: 400; letter-spacing: 2px; line-height: 44px; padding: 0 22px; text-transform: uppercase; width: 276px; height: 44px; }
 header.persist ul.persist-dropdown li:first-child { border-top: 2px dotted white; }
 header.persist button { position: absolute; top: 0; width: 44px; height: 44px; }
 header.persist button svg { margin-top: -9px; margin-left: -9px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; }
